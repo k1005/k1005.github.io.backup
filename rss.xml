@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Hyeyumpa&apos;s Blog</title>
+        <link>https://k1005.github.io</link>
+        <description>기술문서 번역, 기술활용 그리고 개발과 코딩에 관련된 이야기들</description>
+        <lastBuildDate>Thu, 19 Aug 2021 02:48:43 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+        <item>
+            <title><![CDATA[vue-moment 적용 및 사용 방법]]></title>
+            <link>https://k1005.github.io/2020/02/16/vue-moment/</link>
+            <guid>https://k1005.github.io/2020/02/16/vue-moment/</guid>
+            <pubDate>Sun, 16 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[vue-moment 적용 및 사용 방법 $ npm install vue-moment 그리고 require를 사용한다면 이렇게 쉽게 적용할 수가 있다. Vue.use(require('vue-moment')); require를 사용하지 않는다면 이렇게 적용하자. import VueMoment from 'vue-moment' Vue.use(VueMoment); vue-moment를 사용해 보자 위와 같이 적용을 했다면 vue에서는 Vue.$moment 로 호출하여 사용할 수 있다. 스크립트에서는 this.$moment 를 사용하고 tem ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Profile]]></title>
+            <link>https://k1005.github.io/profile/</link>
+            <guid>https://k1005.github.io/profile/</guid>
+            <pubDate>Sun, 16 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello, this is a sample of profile page. You can add fixed pages onto your blog easily like this :+1:]]></description>
+            <enclosure url="https://avatars.githubusercontent.com/u/8636642?v=4">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[프런트 엔드의 명명 규칙]]></title>
+            <link>https://k1005.github.io/2021/07/31/naming-rules/</link>
+            <guid>https://k1005.github.io/2021/07/31/naming-rules/</guid>
+            <pubDate>Sat, 31 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[프런트 엔드의 명명 규칙 > There are only two hard things in Computer Science: Cache invalidation and naming things. > 컴퓨터 과학에는 캐시 무효화와 이름 지정이라는 두 가지 어려운 일이 있습니다. > — Phil Karlton 명명 규칙은 아마도 보편적으로 동의할 수 있는 가장 어려운 것입니다. 모든 사람이 따라야 할 좋은 규칙이 있지만 모든 사람을 만족시키는 규칙은 없을 것입니다. 모든 개발자는 자신의 개인적인 취향에 가깝게 만드는 것을 선호하며 때때로 외 ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[1. 나만의 Vue.js 라우터 만들기]]></title>
+            <link>https://k1005.github.io/2021/08/01/_1-build-my-vue-router/</link>
+            <guid>https://k1005.github.io/2021/08/01/_1-build-my-vue-router/</guid>
+            <pubDate>Sun, 01 Aug 2021 14:16:00 GMT</pubDate>
+            <description><![CDATA[나만의 Vue.js 라우터 만들기 > 나만의 라우터 만들기 시리즈 의 4부 중 1부 > 알렉스 조버 모랄레스씀 아마도 당신은 프론트엔드 세계에서 한동안 라우터를 사용해 왔을 것입니다. 하지만... 직접 라우터를 작성한 적이 있습니까? 라우터의 기초를 아십니까? 그냥 작동하는 것처럼 보일 수 있지만 내부적으로 라우터는 여러 가지를 처리해야 합니다. 라우터는 라우팅을 담당하는 구성 요소입니다. 라우팅은 여러 목적지로 가는 길을 찾는 작업으로 정의할 수 있습니다. 이것은 다른 영역에 적용됩니다. 예를 들어 엘리베이터의 라우터는 숫자 ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2. SPA로 작동하도록 라우터 개선]]></title>
+            <link>https://k1005.github.io/2021/08/01/_2-enhance-router-to-work-with-single-page-applications/</link>
+            <guid>https://k1005.github.io/2021/08/01/_2-enhance-router-to-work-with-single-page-applications/</guid>
+            <pubDate>Sun, 01 Aug 2021 18:16:00 GMT</pubDate>
+            <description><![CDATA[SPA로 작동하도록 라우터 개선 > 나만의 라우터 만들기 시리즈 의 4부 중 2부 > 알렉스 조버 모랄레스씀 이 시점에서 라우터는 window.location 강제 리로드를 수행하는 새 경로를 직접 할당하기 때문에 단일 페이지 앱(SPA) 라우터로 작동하지 않습니다. 라우터를 SPA 라우터로 사용하도록 조정하기 위해 무엇을 해야 하는지 봅시다. 해시 및 HTML5 기록 강제 리로드를 처리하기 위해 모드 라고 하는 두 가지 대안이 있습니다. hash : 해시를 사용 하여 SPA와 다른 경로인 프래그먼트 식별자 를 정의 합니다.  ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ChemDoodleWebComponent 문서 한글 번역]]></title>
+            <link>https://k1005.github.io/2020/03/15/web-component/</link>
+            <guid>https://k1005.github.io/2020/03/15/web-component/</guid>
+            <pubDate>Sun, 15 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[이 문서는 원본 문서의 원문과 함께 번역을 서술한 글입니다. Installation Installation > Download To ensure the continued success of ChemDoodle Web Components, iChemLabs is dedicated to funding and developing this project. Please also help us by mentioning it to your colleagues and friends and placing a link to us on your web ...]]></description>
+            <enclosure url="https://k1005.github.io/images/chemdoodle/chemdoodleweb_logo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[3. Lazy load routes]]></title>
+            <link>https://k1005.github.io/2021/08/01/_3-lazy-load-routes/</link>
+            <guid>https://k1005.github.io/2021/08/01/_3-lazy-load-routes/</guid>
+            <pubDate>Sun, 01 Aug 2021 20:16:00 GMT</pubDate>
+            <description><![CDATA[Lazy load routes > 나만의 라우터 만들기 시리즈 의 4부 중 3부 > 알렉스 조버 모랄레스씀 Lazy Loading 및 Code Splitting은 PRPL 패턴 의 두 가지 주요 요점입니다. Google에서 명명한 패턴은 PWA(Progressive Web App)의 초기 로드를 최대한 빠르게 하여 성능을 향상시키는 일부 구조를 제공하기 위한 것입니다. PRPL 패턴은 다음을 의미합니다. 초기 URL 경로에 대한 중요한 리소스를 푸시 합니다. 초기 경로를 렌더링 합니다. 나머지 경로를 미리 캐시합니다. 요청 시 ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[4. 라우터를 Vue.js 플러그인으로 만들기]]></title>
+            <link>https://k1005.github.io/2021/08/01/_4-make-router-vue-js-plugin/</link>
+            <guid>https://k1005.github.io/2021/08/01/_4-make-router-vue-js-plugin/</guid>
+            <pubDate>Sun, 01 Aug 2021 22:16:00 GMT</pubDate>
+            <description><![CDATA[라우터를 Vue.js 플러그인으로 만들기 > 나만의 라우터 만들기 시리즈 의 4부 중 4부 > 알렉스 조버 모랄레스씀 지금까지 구성 요소에 라우터를 구축하고 앱 소스 코드 내에서 히스토리 모듈을 구축했습니다. 문제는 라우터가 앱에 연결되어 있다는 점입니다. 특히 AppRouter 구성 요소 내에 경로가 정의되어 있기 때문 입니다. 이는 구성 요소에서 경로를 이동하고 매개변수로 전달하여 개선할 수 있습니다. 그러나 여전히 개발자는 AppRouter 구성 요소와 history.js 모듈을 가져와서 사용해야 합니다. Vue.js 플 ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Github Token Authentication]]></title>
+            <link>https://k1005.github.io/2021/08/14/gitbug-token-authentication/</link>
+            <guid>https://k1005.github.io/2021/08/14/gitbug-token-authentication/</guid>
+            <pubDate>Sat, 14 Aug 2021 12:00:00 GMT</pubDate>
+            <description><![CDATA[Github Token Authentication 2021년 8월 14일 아침. 아무 생각 없이 터미널을 띄워 놓고 git pull 명령을 입력했다. 그러자 "두둥! 탁!" > remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead. > remote: Please see https://github.blog/2020-12-15-token-authentication-requirem ...]]></description>
+            <enclosure url="https://k1005.github.io/./images/github-usermenu.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[FontAwesome 사용법]]></title>
+            <link>https://k1005.github.io/2020/03/20/how-to-use-font-awesome/</link>
+            <guid>https://k1005.github.io/2020/03/20/how-to-use-font-awesome/</guid>
+            <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[폰트어썸 사용 방법 기본 사용 스타일 접두사와 아이콘 이름을 사용하여 Font Awesome 아이콘을 어디에나 배치할 수 있습니다. 우리는 아이콘이 자연스럽게 문자와 나란히 나타나도록 하기 위해 노력했습니다. Font Awesome은 인라인 요소와 함께 사용하도록 설계되었으며 프로젝트에서 참조 할 수 있도록 일관된 HTML 요소를 사용하는 것이 좋습니다. 우리는 간결성을 위해태그를 좋아합니다. 대부분의 사람들은 요즘 강조 / 이탤릭체 의미론 텍스트에을 사용하기 때문입니다. 그것이 취향이 아닌 경우,을 사용하는 것이 더 의미론적으 ...]]></description>
+            <enclosure url="https://fontawesome.com/images/docs/web-icons-gallery-1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[1. Open Babel 소개]]></title>
+            <link>https://k1005.github.io/2020/03/27/a01-introduction/</link>
+            <guid>https://k1005.github.io/2020/03/27/a01-introduction/</guid>
+            <pubDate>Fri, 27 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Open Babel은 다양한 언어의 화학 데이터를 사용하도록 설계된 화학 도구 상자입니다. 분자 모델링, 화학, 고체 물질, 생화학 또는 관련 분야의 데이터를 누구나 검색, 변환, 분석 또는 저장할 수있는 개방형 협업 프로젝트입니다.. Open Babel 프로젝트의 목표 Open Babel은 다양한 형식의 파일 형식을 포함하여 화학 데이터를 한 형식에서 다른 형식으로 상호 변환하는 프로젝트입니다. 다음과 같은 이유로 중요합니다.-현실적인 워크 플로에는 여러 프로그램이 필요한 경우가 많습니다. 여기에는 데이터베이스, 모델링 또는 계산 ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2. Open Babel 설치]]></title>
+            <link>https://k1005.github.io/2020/03/28/a02-install-openbabel/</link>
+            <guid>https://k1005.github.io/2020/03/28/a02-install-openbabel/</guid>
+            <pubDate>Sat, 28 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Open Babel은 Windows, Linux 및 MacOSX에서 실행됩니다. 바이너리 패키지 설치 (가장 쉬운 옵션) 또는 Open Babel 컴파일 (쉽지만 훨씬 더 괴짜들의 신용이 있습니다). 바이너리 패키지 설치 Windows Open Babel은 Windows 용 바이너리 설치로 제공됩니다. 여기에는 그래픽 사용자 인터페이스 (GUI)뿐만 아니라 여러 명령 줄 도구가 포함됩니다. 고급 사용자는 Open Babel을 직접 컴파일하는 데 관심이있을 수 있습니다 (Open Babel 컴파일 참조). Linux Open Babe ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[3. 화학 데이터 변환, 필터링 및 조작]]></title>
+            <link>https://k1005.github.io/2020/03/29/a03-%E1%84%92%E1%85%AA%E1%84%92%E1%85%A1%E1%86%A8-%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5-%E1%84%87%E1%85%A7%E1%86%AB%E1%84%92%E1%85%AA%E1%86%AB-%E1%84%91%E1%85%B5%E1%86%AF%E1%84%90%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC-%E1%84%86%E1%85%B5%E1%86%BE-%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A1%E1%86%A8/</link>
+            <guid>https://k1005.github.io/2020/03/29/a03-%E1%84%92%E1%85%AA%E1%84%92%E1%85%A1%E1%86%A8-%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5-%E1%84%87%E1%85%A7%E1%86%AB%E1%84%92%E1%85%AA%E1%86%AB-%E1%84%91%E1%85%B5%E1%86%AF%E1%84%90%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC-%E1%84%86%E1%85%B5%E1%86%BE-%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A1%E1%86%A8/</guid>
+            <pubDate>Sun, 29 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[obabel 및 babel 은 분자 모델링 및 계산 화학 및 관련 영역에서 사용되는 많은 파일 형식간에 상호 변환하도록 설계된 크로스 플랫폼 프로그램입니다. 분자 필터링 및 화학 데이터의 간단한 조작에도 사용할 수 있습니다. 요약 obabel [-H ] obabel [-i ] INFILE [-o ] [-O OUTFILE] [OPTIONS] babel [-H ] babel [-i ] INFILE [-o ] [OUTFILE] [OPTIONS] babel 보다 obabel 을 권장합니다 ( babel과 obabel의 차이점 참조 ). 옵 ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[4. Open Babel 그래픽 사용자 인터페이스]]></title>
+            <link>https://k1005.github.io/2020/03/31/a04-the-open-babel-gui/</link>
+            <guid>https://k1005.github.io/2020/03/31/a04-the-open-babel-gui/</guid>
+            <pubDate>Tue, 31 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[obabel 명령 행(Command Line) 프로그램은 화학 물질 (현재 분자 또는 반응)을 한 파일 형식에서 다른 파일 형식으로 변환합니다. Open Babel GUI (그래픽 사용자 인터페이스)는 명령 줄을 사용하는 대신 사용할 수있는 기능이며 기능이 동일합니다. Open Babel 2.3부터 GUI는 Windows, Linux 및 MacOSX에서 크로스 플랫폼으로 제공됩니다. Windows에서는 Open Babel 폴더의 시작 메뉴에서 찾을 수 있습니다. Linux 및 MacOSX에서 obgui 명령으로 GUI를 시작할 수  ...]]></description>
+            <enclosure url="http://openbabel.org/docs/current/_images/ScreenshotOfGui-BioLinux6.0-Ubuntu10.04deriv.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[1. RDKit 설치]]></title>
+            <link>https://k1005.github.io/2021/08/05/_01-install/</link>
+            <guid>https://k1005.github.io/2021/08/05/_01-install/</guid>
+            <pubDate>Thu, 05 Aug 2021 20:00:00 GMT</pubDate>
+            <description><![CDATA[https://www.rdkit.org/docs/Install.html#optional-packages 1. RDKit 설치 아래에는 다양한 정도의 복잡성과 함께 여러 설치 방법이 나와 있습니다. anaconda python에서 크로스 플랫폼(가장 빠른 설치) 아나콘다 소개 Conda는 오픈 소스, 크로스 플랫폼, 소프트웨어 패키지 관리자입니다. 소프트웨어 구성 요소의 패키징 및 배포를 지원하고 격리된 실행 환경 내에서 설치를 관리합니다. pip 및 virtualenv와 몇 가지 유사점이 있지만 "python에 구애받지 않고" 바이 ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[12. 지원되는 파일 형식 및 옵션]]></title>
+            <link>https://k1005.github.io/2020/03/29/a12-%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%83%E1%85%AC%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF-%E1%84%92%E1%85%A7%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-%E1%84%86%E1%85%B5%E1%86%BE-%E1%84%8B%E1%85%A9%E1%86%B8%E1%84%89%E1%85%A7%E1%86%AB/</link>
+            <guid>https://k1005.github.io/2020/03/29/a12-%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%83%E1%85%AC%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF-%E1%84%92%E1%85%A7%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-%E1%84%86%E1%85%B5%E1%86%BE-%E1%84%8B%E1%85%A9%E1%86%B8%E1%84%89%E1%85%A7%E1%86%AB/</guid>
+            <pubDate>Sun, 29 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[화학자들은 매우 상상력이 풍부한 그룹입니다. 그들은 새로운 파일 형식을 계속 생각합니다. OpenBabel은 총 118 개의 형식을 지원합니다. 88 개의 형식을 읽고 89 개의 형식을 쓸 수 있습니다. 이러한 형식은 이름 (예 : ShelX 형식 )과 하나 이상의 짧은 코드 (이 경우 ins 또는 res ) 로 식별됩니다 . 각 섹션의 제목은이 정보를 제공합니다 (예 : ShelX 형식 (in, res) ). 짧은 코드는 obabel 또는 babel 을 사용하여 한 형식에서 다른 형식으로 파일을 변환 할 때 사용됩니다 . obab ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Swift 개발 톱아보기 - Introduction]]></title>
+            <link>https://k1005.github.io/2021/07/23/develop-in-swift-explorations-introduction/</link>
+            <guid>https://k1005.github.io/2021/07/23/develop-in-swift-explorations-introduction/</guid>
+            <pubDate>Fri, 23 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[코딩을 배울 때 기술 언어만 배우는 것이 아닙니다. 당신은 생각하고 아이디어를 실현하는 새로운 방법을 배우고 있습니다. 또한 강력하고 직관적이며 배우기 쉬운 Apple의 프로그래밍 언어인 Swift로 코딩하면 재미있고 매력적인 방법으로 미래를 준비할 수 있습니다. 누구나 세상을 바꿀 수 있는 무언가를 만들 수 있는 기회를 가져야 합니다. Welcome 훌륭한 앱은 문제를 만들고, 연결하고, 놀고, 배우고, 해결하는 데 도움이 됩니다. 이 과정은 Apple의 강력하고 직관적인 프로그래밍 언어인 Swift를 사용하여 우수한 앱을 설계하 ...]]></description>
+            <enclosure url="https://k1005.github.io/images/chemdoodle/chemdoodleweb_logo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[1. 테스트란 무엇이며 왜 테스트를 수행해야 합니까?]]></title>
+            <link>https://k1005.github.io/2021/08/04/_1-what-is-testing-and-why-should-we-do-it/</link>
+            <guid>https://k1005.github.io/2021/08/04/_1-what-is-testing-and-why-should-we-do-it/</guid>
+            <pubDate>Wed, 04 Aug 2021 20:00:00 GMT</pubDate>
+            <description><![CDATA[테스트란 무엇이며 왜 테스트를 수행해야 합니까? > Written by Alex Jover Morales 소프트웨어 엔지니어링에서 테스트는 응용 프로그램의 모든 부분이 예상대로 작동하는지 평가하는 프로세스입니다. 테스트는 다른 입력이 주어졌을 때 수신된 출력이 사양과 일치하는지 확인하여 소프트웨어에 대한 검증을 수행합니다. 이러한 각 검증을 테스트 케이스 라고 합니다. 애자일 워크플로에서 각 사용자 스토리에는 일련의 테스트 사례가 있어야 합니다. 간단한 예: >US-01: 통화 입력 구성 요소 만들기 > >테스트 사례: >-  ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[3. 테스트 더블]]></title>
+            <link>https://k1005.github.io/2021/08/04/_3-test-doubles/</link>
+            <guid>https://k1005.github.io/2021/08/04/_3-test-doubles/</guid>
+            <pubDate>Wed, 04 Aug 2021 22:00:00 GMT</pubDate>
+            <description><![CDATA[테스트 더블 > Written by Alex Jover Morales Test doubles, spies, and mocking, 모두 흥미롭게 들리지만 실제로 의미하는 바는 무엇입니까? 정말로 내 코드를 감시해야 합니까, 아니면 mocking 해야 합니까? 알아 보자! 의존성 다루기 애플리케이션을 빌드할 때 코드를 구조화하기 시작하여 애플리케이션 전체에서 가져오고 재사용하는 다른 구성 요소와 모듈로 코드를 분리합니다. 모듈이 다른 모듈을 가져올 때 마지막 모듈이 첫 번째 모듈의 종속성이 됩니다. 예를 들어, 학생 ID의 존재 ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2. JavaScript에서 테스트]]></title>
+            <link>https://k1005.github.io/2021/08/04/_2-testing-in-javascript/</link>
+            <guid>https://k1005.github.io/2021/08/04/_2-testing-in-javascript/</guid>
+            <pubDate>Wed, 04 Aug 2021 21:00:00 GMT</pubDate>
+            <description><![CDATA[JavaScript에서 테스트 > Written by Alex Jover Morales 일부 JavaScript 테스트 및 해당 워크플로를 실습하기 전에 사용할 수 있는 도구를 비교해 보겠습니다. 도구 우리는 단위 테스트에 대한 몇 가지 옵션이 있습니다. 가장 인기있는 것들: Jest : JavaScript 커뮤니티에서 사실상의 테스트 도구가 되었습니다. 훌륭한 조롱 기능, 라이브러리 예상, 스냅샷 테스트 등 테스트에 필요한 모든 것을 포함하는 최신 도구입니다. JSDom이라는 빠른 에뮬레이트 브라우저를 사용하고, 병렬로 실행 ...]]></description>
+        </item>
+    </channel>
+</rss>
